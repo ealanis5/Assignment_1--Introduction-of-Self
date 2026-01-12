@@ -17,22 +17,3 @@ int main() {
     std::cout << "Five_years: " << Five_years << ", Seven_years: " << Seven_years << std::endl;
     return 0;
 }
-
-#include <iostream>
-int main() {
-    std::string age = " 17 years old";
-    std::string goals = "Become a chemical engineer/physician in the future.";
-    std::cout << "Age: " << age << ", goals: " << goals << std::endl;
-    return 0;
-}
-
-#include <iostream>
-using namespace std;
-
-int main() {
-    int age;
-    cout << "17 years old: ";  //Output using cout
-   cin >> age;                 //Input using cin
-    cout << "You are " << age << " years old!" << endl;
-    return 0;
-}
